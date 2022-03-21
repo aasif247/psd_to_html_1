@@ -10,6 +10,7 @@
     <!-- Vendor Files -->
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,9 +29,9 @@
                 <!-- ul>li*5>a[href="#"]{home} -->
                 <ul class="main-nav">
                     <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#skill">Skill</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
@@ -48,16 +49,162 @@
 
     <!-- Start Service Section -->
 
-    <!-- <div class="row">
-        <div class="hero-text-box">
+    <section class="services-section " id="service">
+        <div class="row">
             <h2>SERVICES WE PROVIDE</h2>
-
-            <h3>We are working with both individuals and businesses from all over the globeto create awesome websites and applications.
-            </h3>
+            <p class="little-description">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.
+            </p>
         </div>
-    </div> -->
+
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/flag.png" class="services-icon" alt="Flag">
+                <h3>Branding</h3>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/crayon.png" class="services-icon" alt="Crayon">
+                <h3>Design</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
+            </div>
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/gears.png" class="services-icon" alt="Gears">
+                <h3>Development</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+            </div>
+
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/rocket.png" class="services-icon" alt="Rocket">
+                <h3>ROCKET SCIENCE</h3>
+                <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- End Service Section -->
+
+    <!-- Start Team Section -->
+
+    <section class="team-section " id="team">
+        <div class="row">
+            <h2>MEET OUR BEAUTIFUL TEAM</h2>
+            <p>We are a small team of designers and developers, who help brands with big ideas.</p>
+        </div>
+
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/1.jpg" alt="ANNE HATHAWAY" class="team-member">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="role">CEO / Marketing Guru</span>
+                <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
+                <div class="social-link">
+                    <ul>
+                        <li> <a href=""> <i class="fab fa-facebook">   </i> </a> </li>
+                        <li> <a href=""> <i class="fab fa-twitter">    </i> </a> </li>
+                        <li> <a href=""> <i class="fab fa-linkedin-in"></i> </a> </li>
+                        <li> <a href=""> <i class="fas fa-envelope">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/2.jpg" alt="Kate Upton" class="team-member">
+                <h3>Kate Upton</h3>
+                <span class="role">Creative Director</span>
+                <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+                <div class="social-link">
+                    <ul>
+                        <li> <a href=""> <i class="fab fa-twitter">    </i> </a> </li>
+                        <li> <a href=""> <i class="fab fa-linkedin-in"></i> </a> </li>
+                        <li> <a href=""> <i class="fas fa-envelope">   </i> </a> </li>
+                    </ul>
+                </div>    
+            </div>
+    
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/3.jpg" alt="Olivia Wilde" class="team-member">
+                <h3>Olivia Wilde</h3>
+                <span class="role">Creative Director</span>
+                <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                <div class="social-link">
+                    <ul>
+                        <li> <a href=""> <i class="fab fa-facebook">   </i> </a> </li>
+                        <li> <a href=""> <i class="fab fa-twitter">    </i> </a> </li>
+                        <li> <a href=""> <i class="fab fa-linkedin-in"></i> </a> </li>
+                        <li> <a href=""> <i class="fas fa-envelope">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/4.jpg" alt="Ashley Greene" class="team-member">
+                <h3>Ashley Greene</h3>
+                <span class="role">SEO /developer</span>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <div class="social-link">
+                    <ul>
+                        <li> <a href=""> <i class="fab fa-facebook">   </i> </a> </li>
+                        <li> <a href=""> <i class="fab fa-twitter">    </i> </a> </li>
+                        <li> <a href=""> <i class="fas fa-envelope">   </i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+      
+    </section>
+
+<!-- End Team Section -->
+
+<!-- Start Skill Section -->
+<section class="skill-section" id="skill">
+    <div class="row">
+        <h2>WE GOT SKILLS!</h2>
+        <p class="little-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+              </svg>
+            <h3>Web Design</h3>
+        </div>
+
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+              </svg>
+            <h3>Html/Css</h3>
+        </div>
+
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress graphic-design" data-percentage="80" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+              </svg>
+            <h3>Graphic Design</h3>
+        </div>
+
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+              </svg>
+            <h3>UI/UX</h3>
+        </div>
+    </div> 
+</section>
+<!-- End Skill Section -->
+
     
 
 
@@ -73,7 +220,11 @@
 
 
     <!-- Js Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="vendors/js/html5shiv.min.js"></script>
     <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr.min.js"></script>
+    <script src="vendors/js/animated-circle.js"></script>
+    <script src="resources/js/main.js"></script>
 </body>
 </html>
