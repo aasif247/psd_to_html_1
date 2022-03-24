@@ -115,6 +115,12 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
+@media only screen and (max-width: 980px) {
+	.span_1_of_4 {
+		width: 49.2%; 
+	}
+}
+
 @media only screen and (max-width: 480px) {
 	.span_4_of_4 {
 		width: 100%; 
@@ -129,6 +135,7 @@
 		width: 100%; 
 	}
 }
+
 
 /*  GRID OF FIVE   ============================================================================= */
 
