@@ -1,23 +1,30 @@
-@media only screen and(max-width: 1200px)
+@media only screen and (max-width: 1200px)
 {
     header{
-        height: 60vh;
+        height: 90vh;
     }
-}
-
-@media only screen and (max-width: 1024px)
-{
 
     .row{
         margin: 0 15px;
     }
 
-    .main-nav{
-        display: none;
+    .hero-text-box{
+        width:100%;
     }
 
-    .hero-text-box{
-        width:90%;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .mobile-menu span{
+        display:block;
+    }
+
+    .mobile-menu{
+        
+    }
+    .main-nav{
+        display: none;
     }
 
     html{
